@@ -1,0 +1,18 @@
+Making install in include
+Making install in libxml
+make[3]: Nothing to be done for `install-exec-am'.
+ /opt/homebrew/bin/gmkdir -p '/Users/rorlan02-local/Documents/Temp Code/Rails_tutorial/Basic_Rails/rails_6_projects/test_app_6/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.13.9/ports/-darwin21/libxml2/2.10.3/include/libxml2/libxml'
+ /opt/homebrew/bin/ginstall -c -m 644 xmlversion.h '/Users/rorlan02-local/Documents/Temp Code/Rails_tutorial/Basic_Rails/rails_6_projects/test_app_6/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.13.9/ports/-darwin21/libxml2/2.10.3/include/libxml2/libxml'
+ /opt/homebrew/bin/gmkdir -p '/Users/rorlan02-local/Documents/Temp Code/Rails_tutorial/Basic_Rails/rails_6_projects/test_app_6/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.13.9/ports/-darwin21/libxml2/2.10.3/include/libxml2/libxml'
+ /opt/homebrew/bin/ginstall -c -m 644 SAX.h entities.h encoding.h parser.h parserInternals.h xmlerror.h HTMLparser.h HTMLtree.h debugXML.h tree.h list.h hash.h xpath.h xpathInternals.h xpointer.h xinclude.h xmlIO.h xmlmemory.h nanohttp.h nanoftp.h uri.h valid.h xlink.h catalog.h threads.h globals.h c14n.h xmlautomata.h xmlregexp.h xmlmodule.h xmlschemas.h schemasInternals.h xmlschemastypes.h xmlstring.h xmlunicode.h xmlreader.h relaxng.h dict.h SAX2.h xmlexports.h '/Users/rorlan02-local/Documents/Temp Code/Rails_tutorial/Basic_Rails/rails_6_projects/test_app_6/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.13.9/ports/-darwin21/libxml2/2.10.3/include/libxml2/libxml'
+ /opt/homebrew/bin/ginstall -c -m 644 xmlwriter.h chvalid.h pattern.h xmlsave.h schematron.h '/Users/rorlan02-local/Documents/Temp Code/Rails_tutorial/Basic_Rails/rails_6_projects/test_app_6/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.13.9/ports/-darwin21/libxml2/2.10.3/include/libxml2/libxml'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+Making install in .
+ /opt/homebrew/bin/gmkdir -p '/Users/rorlan02-local/Documents/Temp Code/Rails_tutorial/Basic_Rails/rails_6_projects/test_app_6/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.13.9/ports/-darwin21/libxml2/2.10.3/lib'
+ /bin/sh ./libtool   --mode=install /opt/homebrew/bin/ginstall -c   libxml2.la '/Users/rorlan02-local/Documents/Temp Code/Rails_tutorial/Basic_Rails/rails_6_projects/test_app_6/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.13.9/ports/-darwin21/libxml2/2.10.3/lib'
+libtool: install: /opt/homebrew/bin/ginstall -c .libs/libxml2.lai /Users/rorlan02-local/Documents/Temp Code/Rails_tutorial/Basic_Rails/rails_6_projects/test_app_6/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.13.9/ports/-darwin21/libxml2/2.10.3/lib/libxml2.la
+ginstall: target 'Code/Rails_tutorial/Basic_Rails/rails_6_projects/test_app_6/vendor/bundle/ruby/2.7.0/gems/nokogiri-1.13.9/ports/-darwin21/libxml2/2.10.3/lib/libxml2.la': No such file or directory
+make[2]: *** [install-libLTLIBRARIES] Error 1
+make[1]: *** [install-am] Error 2
+make: *** [install-recursive] Error 1
